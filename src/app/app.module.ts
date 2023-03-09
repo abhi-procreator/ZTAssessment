@@ -20,6 +20,7 @@ import { ExtTextInteractionComponent } from './components/ext-text-interaction/e
 import { ChoiceBoxComponent } from "./components/choice-box/choice-box.component";
 import { CardBoxComponent } from './components/card-box/card-box.component';
 import { Choiceintraction002Component } from './components/choiceintraction002/choiceintraction002.component';
+import { ImportSectionComponent } from './import-section/import-section.component';
 
 
 @NgModule({
@@ -38,7 +39,8 @@ import { Choiceintraction002Component } from './components/choiceintraction002/c
         ExtTextInteractionComponent,
         ChoiceBoxComponent,
         CardBoxComponent,
-        Choiceintraction002Component
+        Choiceintraction002Component,
+        ImportSectionComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
