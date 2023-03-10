@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CdkDragDrop, moveItemInArray } from '@angular/cdk/drag-drop';
 
 @Component({
   selector: 'app-import-section',
@@ -8,6 +9,7 @@ import { Component } from '@angular/core';
 export class ImportSectionComponent {
 
   fileUpload = "";
+  filesAdd = "";
   selected: boolean = false;
   exportFile: boolean = false;
   icons: boolean = false;
@@ -23,13 +25,17 @@ export class ImportSectionComponent {
     this.icons = true;
     this.Screen1 = false;
     this.Screen2 = true;
-    setTimeout(() => {
-      this.exportFile = true;
-    }, 1000);
+    this.exportFile = true;
+  }
+  // screen 4 and 5
+  uploadedFile(event: any) {
+    this.filesAdd = event.target.files[0].name;
   }
 
   secondShow() {
     this.Screen2 = false;
     this.Screen3 = true;
-   }
+  }
+
+
 }
