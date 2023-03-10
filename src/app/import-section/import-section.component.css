@@ -19,7 +19,7 @@
 }
 
 .import img {
-    margin: 5rem 0 0 26rem;
+    margin: 6rem 0 0 26rem;
 }
 
 .import2 img {
@@ -30,54 +30,41 @@
     margin-top: 30px;
 }
 
-.uploading {
-    margin: 0 2px 0 5px;
+.uploading,
+.uploading1,
+.uploading4,
+.uploading5,
+.fileText {
     width: 100%;
-    padding: 4px 18rem 4px 10px;
     color: #0C747E;
     font-weight: 600;
     border: 2px solid #0C747E;
     border-radius: 7px;
+}
+
+.uploading {
+    margin: 0 2px 0 5px;
+    padding: 4px 18rem 4px 10px;
 }
 
 .uploading1 {
     margin: 0 45px 0 5px;
-    width: 100%;
     padding: 4px 400px 4px 10px;
-    color: #0C747E;
-    font-weight: 600;
-    border: 2px solid #0C747E;
-    border-radius: 7px;
 }
 
 .uploading4 {
     margin: 0 0 0 5px;
-    width: 100%;
     padding: 4px 17.5rem 4px 10px;
-    color: #0C747E;
-    font-weight: 600;
-    border: 2px solid #0C747E;
-    border-radius: 7px;
 }
 
 .uploading5 {
     margin: 0 0 0 5px;
-    width: 100%;
     padding: 4px 9rem 4px 10px;
-    color: #0C747E;
-    font-weight: 600;
-    border: 2px solid #0C747E;
-    border-radius: 7px;
 }
 
 .fileText {
     margin-top: 20px;
-    width: 100%;
     height: 11%;
-    color: #0C747E;
-    font-weight: 600;
-    border: 2px solid #0C747E;
-    border-radius: 7px;
 }
 
 .fileText2 {
@@ -146,3 +133,25 @@ select {
     border: 2px solid #0C747E;
     border-radius: 5px;
 }
+
+
+
+
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+.checkboxOne,.checkboxtwo{
+    width: 15px;
+    height: 15px;
+    margin: 0 0 -19px 0;
+    position: relative;
+    border: 1px solid #0C747E;
+    border-radius: 3px;
+}
+.checkboxOne {
+    background: #0C747E; 
+}
+
+
+
