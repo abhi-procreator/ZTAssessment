@@ -21,6 +21,7 @@ import { ChoiceBoxComponent } from "./components/choice-box/choice-box.component
 import { CardBoxComponent } from './components/card-box/card-box.component';
 import { Choiceintraction002Component } from './components/choiceintraction002/choiceintraction002.component';
 import { ImportSectionComponent } from './import-section/import-section.component';
+import { ExportSectionComponent } from './export-section/export-section.component';
 
 
 @NgModule({
@@ -40,7 +41,8 @@ import { ImportSectionComponent } from './import-section/import-section.componen
         ChoiceBoxComponent,
         CardBoxComponent,
         Choiceintraction002Component,
-        ImportSectionComponent
+        ImportSectionComponent,
+        ExportSectionComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
