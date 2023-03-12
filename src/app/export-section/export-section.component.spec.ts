@@ -8,9 +8,9 @@ describe('ExportSectionComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ExportSectionComponent ]
+      declarations: [ ExportSectionComponent ]  
     })
-    .compileComponents();
+    .compileComponents();       
 
     fixture = TestBed.createComponent(ExportSectionComponent);
     component = fixture.componentInstance;
