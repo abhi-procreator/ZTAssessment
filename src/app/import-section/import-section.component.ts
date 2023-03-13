@@ -36,6 +36,4 @@ export class ImportSectionComponent {
     this.Screen2 = false;
     this.Screen3 = true;
   }
-
-
 }

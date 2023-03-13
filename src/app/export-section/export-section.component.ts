@@ -11,8 +11,9 @@ export class ExportSectionComponent {
   Screen2: boolean = false;
   Screen3: boolean = false;
   selected: boolean = false;      
-  exportFile: boolean = true;  
+  exportFile: boolean = true; 
+   
   constructor() { }
-
+  
   uploadFile(event: any) { }
 }
