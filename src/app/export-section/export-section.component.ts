@@ -15,4 +15,13 @@ export class ExportSectionComponent {
 
   constructor() { }
   uploadFile(event: any) { }
+
+  addSecond(){
+    this.Screen1 = false;
+    this.Screen2 = true;
+  }
+  addThird(){
+    this.Screen2 = false;
+    this.Screen3 = true;
+  }
 }

@@ -46,8 +46,14 @@
             <!-- <a type="button" (click)="uploader.click()"><img src="./assets/browse2.png" height="32px">
                 <input hidden type="file" #uploader (change)="uploadFile($event)" />
               </a> -->
-            <b>File Name &nbsp;</b>
-            <span class="uploading1"></span>
+            <!-- <b>File Name &nbsp;</b>
+            <span>
+              <input type="text" class="uploading1">
+            </span> -->
+            <div class="row">
+              <div class="col-md-3"><b>File Name &nbsp;</b></div>
+              <div class="col-md-7"><input type="text" class="uploading1"></div>
+            </div>
           </div>
           <div class="row items  mt-4">
             <div class="col-md-2">
@@ -65,7 +71,7 @@
         </div>
       </div>
       <div class="import">
-        <a type="button"><img src="./assets/export.png" height="32px"></a>
+        <a type="button" (click)="addSecond()"><img src="./assets/export.png" height="32px"></a>
       </div>
     </div>
   </div>
@@ -119,9 +125,13 @@
             <!-- <a type="button" (click)="uploader.click()"><img src="./assets/browse2.png" height="32px">
               <input hidden type="file" #uploader (change)="uploadFile($event)" />
             </a> -->
-            <b>File Name &nbsp;</b>
+            <!-- <b>File Name &nbsp;</b>
             <span class="uploading1">
-            </span>
+            </span> -->
+            <div class="row">
+              <div class="col-md-3"><b>File Name &nbsp;</b></div>
+              <div class="col-md-7"><input type="text" class="uploading1"></div>
+            </div>
           </div>
           <div class="row items  mt-4">
             <div class="col-md-2">
@@ -139,7 +149,7 @@
         </div>
       </div>
       <div class="import">
-        <a type="button"><img src="./assets/export.png" height="32px"></a>
+        <a type="button" (click)="addThird()"><img src="./assets/export.png" height="32px"></a>
       </div>
     </div>
   </div>
@@ -196,8 +206,12 @@
             </p>
           </div>
           <div class="uploadFile">
-            <b>File Name &nbsp;</b>
-            <span class="uploading1"></span>
+            <!-- <b>File Name &nbsp;</b>
+            <span class="uploading1"></span> -->
+            <div class="row">
+              <div class="col-md-3"><b>File Name &nbsp;</b></div>
+              <div class="col-md-7"><input type="text" class="uploading1"></div>
+            </div>
           <div class="row items  mt-4">
             <div class="col-md-2">
               <b>Items</b>

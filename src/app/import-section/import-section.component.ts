@@ -30,9 +30,16 @@ export class ImportSectionComponent {
   // screen 4 and 5
   uploadedFile(event: any) {
     this.filesAdd = event.target.files[0].name;
+    this.Screen4 = false;
+    this.Screen5 = true;
   }
   secondShow() {
     this.Screen2 = false;
     this.Screen3 = true;
+  }
+
+  importforth(){
+    this.Screen3 = false;
+    this.Screen4 = true;
   }
 }
