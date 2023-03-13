@@ -31,7 +31,6 @@ export class ImportSectionComponent {
   uploadedFile(event: any) {
     this.filesAdd = event.target.files[0].name;
   }
-
   secondShow() {
     this.Screen2 = false;
     this.Screen3 = true;

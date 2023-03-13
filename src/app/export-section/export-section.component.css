@@ -75,7 +75,6 @@ select {
 input[type=checkbox] {
     visibility: hidden;
 }
-
 .checkboxOne,
 .checkboxtwo {
     width: 15px;
