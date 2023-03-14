@@ -12,17 +12,14 @@ img {
 
 .options {
   max-width: 2rem;
-
   margin: 1em 1em 0em 1em;
 }
-
 .options-container {
   min-width: 14%;
   max-height: 30%;
   position: absolute;
   right: 0;
 }
-
 .printViewBurger {
   position: absolute;
   right: 1;

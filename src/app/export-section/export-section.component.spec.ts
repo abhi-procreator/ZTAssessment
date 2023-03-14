@@ -10,6 +10,7 @@ describe('ExportSectionComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ ExportSectionComponent ]  
     })
+    
     .compileComponents();       
 
     fixture = TestBed.createComponent(ExportSectionComponent);

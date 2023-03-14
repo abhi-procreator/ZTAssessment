@@ -12,15 +12,18 @@ export class ExportSectionComponent {
   Screen3: boolean = false;
   selected: boolean = false;      
   exportFile: boolean = true; 
-
+  textType:string = "";
   constructor() { }
   uploadFile(event: any) { }
 
-  addSecond(){
+  inputChange(){
+    this.textType = this.textType;
+  }
+  clickSecond(){
     this.Screen1 = false;
     this.Screen2 = true;
   }
-  addThird(){
+  clickThird(){
     this.Screen2 = false;
     this.Screen3 = true;
   }

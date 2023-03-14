@@ -10,7 +10,8 @@ describe('ImportSectionComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ ImportSectionComponent ]
     })
-    .compileComponents();
+    
+    .compileComponents();   
 
     fixture = TestBed.createComponent(ImportSectionComponent);
     component = fixture.componentInstance;
