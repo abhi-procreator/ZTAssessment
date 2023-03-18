@@ -12,4 +12,8 @@ export class AdminHoverCardComponent {
   hovercard: boolean = false;
   navwarning: boolean = false;
   ordering:boolean=false;
+  itemsession:boolean=false;
+  timelimit:boolean=false;
+  selection:boolean=false;
+  itemprop:boolean=true;
 }

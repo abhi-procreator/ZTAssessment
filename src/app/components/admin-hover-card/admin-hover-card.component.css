@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
 
 ul {
   list-style: none;
@@ -277,4 +278,300 @@ flex-grow: 1;
   margin-left: 30px;
   width: 250px;
 }
+
+/* Item Session Control */
+.headingeleitem{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 10px 10px 24px;
+  gap: 10px;
+  position: absolute;
+  width: 300px;
+  height: 43px;
+  left: 0px;
+  top: 0px;
+  background: #0C747E;
+}
+
+.headingitem{
+width: 238px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.crossitem{
+  width: 18px;
+height: 18px;
+flex: none;
+order: 1;
+flex-grow: 0;
+cursor: pointer;
+}
+
+.itemsession ul li{
+  border-bottom: none;
+}
+
+.number{
+  width: 50px;
+  margin-left: 60px;
+}
+
+.checkboxitem1{
+  position: relative;
+  left: 60px;
+}
+
+.checkboxitem2{
+  position: relative;
+  left: 58px;
+}
+
+.checkboxitem3{
+  position: relative;
+  left: 68px;
+}
+
+.checkboxitem4{
+  position: relative;
+  left: 35px;
+}
+
+.togglenewitem{
+  position: relative;
+  top: 15px;
+  max-height: 200px;
+  /* width: 220px; */
+  overflow-y: scroll;  
+}
+
+/* width */
+.togglenewitem::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+.togglenewitem::-webkit-scrollbar-thumb {
+  background: #83C5BE; 
+  border-radius: 50px;
+}
+/* Handle on hover */
+.togglenewitem::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.bodyeleitem{
+  margin-left: 30px;
+  width: 260px;
+}
+
+/* Timelimits */
+.sec4{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 24px;
+gap: 10px;
+position: absolute;
+width: 300px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: #0C747E;
+}
+
+.heading4{
+  width: 238px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.number1,.number2,.number3{
+  width: 50px;
+}
+
+.timelimit ul li{
+  border-bottom: none;
+}
+
+.toggletimelimit{
+  position: relative;
+  top: 15px;
+  max-height: 160px;
+  /* width: 220px; */
+  overflow-y: scroll;  
+}
+
+/* width */
+.toggletimelimit::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+.toggletimelimit::-webkit-scrollbar-thumb {
+  background: #83C5BE; 
+  border-radius: 50px;
+}
+/* Handle on hover */
+.toggletimelimit::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.bodyele5{
+  margin-left: 30px;
+  width: 260px;
+}
+
+/* Selection */
+.sec5{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 24px;
+gap: 10px;
+position: absolute;
+width: 300px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: #0C747E;
+}
+
+.heading5{
+width: 238px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.crossselection{
+width: 18px;
+height: 18px;
+flex: none;
+order: 1;
+flex-grow: 0;
+cursor: pointer;
+}
+
+.selection ul li{
+  border-bottom: none;
+}
+
+.checkbox3{
+  position: relative;
+  left: 60px;
+}
+
+.number4{
+  width: 50px;
+  position: relative;
+  left: 130px;
+}
+
+.bodyele6{
+  width: 260px;
+  margin-left: 30px;
+}
+
+.checkbox4{
+  position: relative;
+  left: 45px;
+}
+
+/* Item Properties */
+.headingitemprop{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 10px 10px 24px;
+gap: 10px;
+position: absolute;
+width: 300px;
+height: 43px;
+left: 0px;
+top: 0px;
+background: #0C747E;
+}
+
+.headingitem1{
+width: 238px;
+height: 23px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.itemproperties ul li{
+  border-bottom: none;
+}
+
+.itembold{
+  font-weight: 600;
+}
+
+.togglenew2{
+  position: relative;
+  top: 15px;
+  max-height: 280px;
+  overflow-y: scroll;  
+}
+
+/* width */
+.togglenew2::-webkit-scrollbar {
+  width: 5px;
+}
+/* Handle */
+.togglenew2::-webkit-scrollbar-thumb {
+  background: #83C5BE; 
+  border-radius: 50px;
+}
+/* Handle on hover */
+.togglenew2::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.bodyeleitemprop{
+  margin-left: 30px;
+  width: 260px;
+}
+
+.checkbox5{
+  position: relative;
+  left: 100px;
+}
+
+.checkbox6{
+  position: relative;
+  left: 50px;
+}
+
+
 

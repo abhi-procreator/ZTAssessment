@@ -224,3 +224,137 @@
   </div>
 </aside>
 
+<!-- Item Session Control -->
+<aside class="itemsession" *ngIf="itemsession">
+  <div class="headingeleitem">
+    <div class="headingitem">ITEM SESSION CONTROL</div>
+    <img src="../../../assets/cross.png" alt="cross" class="crossitem" (click)="itemsession=false"/>
+  </div>
+
+  <div class="togglenewitem">
+  <div class="bodyeleitem">
+    <ul>
+      <li>
+        <span>Max Attempts</span>
+        <input type="number" class="number">
+      </li>
+      <li>
+        <span>Show Feedback</span>
+        <input type="checkbox" class="checkboxitem1">
+      </li>
+      <li>
+        <span>Allow Comment</span>
+        <input type="checkbox" class="checkboxitem2">
+      </li>
+      <li>
+        <span>Allow Skipping</span>
+        <input type="checkbox" class="checkboxitem3">
+      </li>
+      <li>
+        <span>Validate Response</span>
+        <input type="checkbox" class="checkboxitem4">
+      </li>
+    </ul>
+  </div>
+</div>
+</aside>
+
+<!-- Time Limits -->
+<aside class="timelimit" *ngIf="timelimit">
+  <div class="sec4">
+    <div class="heading4">TIME LIMITS</div>
+    <img src="../../../assets/cross.png" alt="cross" class="cross" (click)="timelimit=false"/>
+  </div>
+
+  <div class="toggletimelimit">
+  <div class="bodyele5">
+    <ul>
+      <li>
+        <span>Max Attempts :</span>
+      </li>
+      <li class="joinnumbers">
+        <input type="number" class="number1"> :
+        <input type="number" class="number2"> :
+        <input type="number" class="number3">
+      </li>
+      <li>
+        <span>Data Submission Allowed: </span>
+      </li>
+      <li>
+        <input type="checkbox" class="checkbox2">
+      </li>
+    </ul>
+  </div>
+</div>
+</aside>
+
+<!-- Selection -->
+<aside class="selection" *ngIf="selection">
+  <div class="sec5">
+    <div class="heading5">SELECTION</div>
+    <img src="../../../assets/cross.png" alt="cross" class="crossselection" (click)="selection=false"/>
+  </div>
+
+  <div class="togglenew">
+  <div class="bodyele6">
+    <ul>
+      <li>
+        <span>Enable Selection</span>
+        <input type="checkbox" class="checkbox3">
+      </li>
+      <li>
+        <span>Select</span>
+        <input type="number" class="number4">
+      </li>
+      <li>
+        <span>With Replacement</span>
+        <input type="checkbox" class="checkbox4">
+      </li>
+    </ul>
+  </div>
+  </div>
+</aside>
+
+<!-- Item Properties -->
+<aside class="itemproperties" *ngIf="itemprop">
+  <div class="sec6">
+    <div class="headingitemprop">
+      <div class="headingitem1">ITEM PROPERTIES</div>
+      <img src="../../../assets/cross.png" alt="cross" class="crossselection" (click)="itemprop=false"/>
+    </div>
+  </div>
+
+  <div class="togglenew2">
+  <div class="bodyeleitemprop">
+    <ul>
+      <li>
+        <span class="itembold">Identifier: </span>
+        <br/>
+        <span>assessmentSection1</span>
+      </li>
+
+      <li>
+        <span class="itembold">Title: </span>
+        <br/>
+        <span>Section1</span>
+      </li>
+
+      <li>
+        <span>Invisible</span>
+        <input type="checkbox" class="checkbox5">
+      </li>
+
+      <li>
+        <span>Keep together</span>
+        <input type="checkbox" class="checkbox6">
+      </li>
+
+      <li>
+        <span class="itembold">Categories: </span>
+        <br/>
+        <span>English</span>
+      </li>
+    </ul>
+  </div>
+</div>
+</aside>
