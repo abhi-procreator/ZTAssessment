@@ -146,7 +146,7 @@
       <div class="card-body">
         <div class="row mt-1 mb-3">
           <p class="impFormet">
-            Choose Import Formet
+            Choose Import Format
           </p>
           <div class="checkbox">
             <div class="mt-2">
@@ -216,7 +216,7 @@
     <div class="card-body">
       <div class="row mt-1 mb-3">
         <p class="impFormet">
-          Choose Import Formet
+          Choose Import Format
         </p>
         <div class="checkbox">
           <div class="mt-2">
@@ -275,7 +275,7 @@
     <div class="card-body">
       <div class="row mt-1 mb-3">
         <p class="impFormet">
-          Choose Import Formet
+          Choose Import Format
         </p>
         <div class="checkbox">
           <div class="mt-2">
@@ -323,4 +323,320 @@
       </div>
     </div>
   </div>
+</div>
+
+
+<!-- SIXTH SCREEN -->
+
+<div class="content" *ngIf="Screen6">
+  <p class="imp">IMPORT</p>
+  <div class="card" style="width: 34rem;">
+    <div class="card-body">
+      <div class="row">
+        <p class="impFormet">
+          CHOOSE IMPORT FORMAT
+        </p>
+        <div class="checkbox">
+          <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <input type="radio" name="selecter" id="checkboxOneInput" />&nbsp;&nbsp;&nbsp; RDF
+            </div>
+          </div>
+          <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <input type="radio" name="selecter" id="checkboxOneInput" checked />&nbsp;&nbsp;&nbsp; CSV
+            </div>
+          </div>
+          <div class="meta">
+            <p>Import Metadata From RDF File <br>
+              Add an RDF/XML File*
+            </p>
+          </div>
+          <div>
+            <a type="button" (click)="uploadeFiles.click()"><img src="./assets/browse3.png" height="30px">
+              <input hidden type="file" #uploadeFiles (change)="uploadedFile($event)" />
+            </a>
+            <span class="uploading6">
+              No File selected
+            </span>
+          </div>
+          <div class="fileText2">
+            <span class="dragFile">
+              <p class="or"> OR</p>
+              <p class="drag"> Drag File Here</p>
+            </span>
+          </div>
+          <div class="form-field mt-2">
+            <div class="mb-2"><label for="college"><b>CSV Options</b></label></div>
+            <div class="row">
+              <div class="col-md-3">Field Delimiter</div>
+              <div class="col-md-8">
+                <input type="text">
+              </div>
+            </div>
+
+            <div class="row mt-1">
+              <div class="col-md-3">Field Encloser</div>
+              <div class="col-md-8">
+                <input type="text">
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="col-md-1 mt-2"></div>
+            <div class="col-md-11">
+              <input type="radio" name="select" id="checkboxOneInput" checked />&nbsp;&nbsp;&nbsp; First Row Colunm
+              Names
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="import2">
+        <a type="button"><img src="./assets/next (2).png" height="32px"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEVENTH SCREEN -->
+
+<div class="content" *ngIf="Screen7">
+  <p class="imp">IMPORT</p>
+  <div class="card" style="width: 34rem;">
+    <div class="card-body">
+      <div class="row">
+        <p class="impFormet">
+          CHOOSE IMPORT FORMAT
+        </p>
+        <div class="checkbox">
+          <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <input type="radio" name="selecter" id="checkboxOneInput" checked />&nbsp;&nbsp;&nbsp; RDF
+            </div>
+          </div>
+          <div>
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <input type="radio" name="selecter" id="checkboxOneInput" />&nbsp;&nbsp;&nbsp; CSV
+            </div>
+          </div>
+          <div class="meta mt-3">
+            <p>Import Metadata From RDF File <br>
+              Add an RDF/XML File*
+            </p>
+          </div>
+          <div>
+            <a type="button" (click)="uploadeFiles.click()"><img src="./assets/browse3.png" height="30px">
+              <input hidden type="file" #uploadeFiles (change)="uploadedFile($event)" />
+            </a>
+            <span class="uploading6">
+              No File selected
+            </span>
+          </div>
+          <div class="fileText2">
+            <span class="dragFileField">
+              <p class="or"> OR</p>
+              <p class="drag"> Drag File Here</p>
+            </span>
+          </div>
+          <div>
+          </div>
+        </div>
+      </div>
+      <div class="import2">
+        <a type="button"><img src="./assets/impt.png" height="32px"></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- EightTH SCREENS -->
+
+<div class="contentEight" *ngIf="Screen8">
+  <div class="card" style="width: 33rem; height: 37rem;">
+    <div class="card-header">
+      <p class="imrt">IMPORT</p>
+    </div>
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6 format">
+          <p>Choose Import Format*</p>
+        </div>
+        <div class="col-md-3">
+          <input type="radio">&nbsp;&nbsp;RDF
+        </div>
+        <div class="col-md-3">
+          <input type="radio" checked>&nbsp;&nbsp;CSV
+        </div>
+      </div>
+      <div class="map">
+        <p class="mapImp">Map the properties to the CSV columns</p>
+      </div>
+      <div class="selectOptions">
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Label
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">Column 1 : label</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Islocked?
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">.......select........</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Logon Failures
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">.......select........</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Last Logon Failures
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">.......select........</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Locked by
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">.......select........</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            First Name
+          </div>
+          <div class="col-md-6 first">
+            <select>
+              <option value="">Column 2: First Name</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Last Name
+          </div>
+          <div class="col-md-6 first">
+            <select>
+              <option value="">Column 3: Last Name</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Login
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">Column 5:Login</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Password
+          </div>
+          <div class="col-md-6 pass">
+            <select>
+              <option value="">Column 7 : Password</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Mail
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">Column 6 : Mail</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Interface Language
+          </div>
+          <div class="col-md-6 interface">
+            <select>
+              <option value="">Column 4 : Interface Language</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Password Recovery Token
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">.......select........</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Group
+          </div>
+          <div class="col-md-6">
+            <select>
+              <option value="">Column 8:Group</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row mt-1">
+          <div class="col-md-4">
+            Define the Default values
+            Interface language
+          </div>
+          <div class="col-md-6 default">
+            <select>
+              <option value="English"></option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="import3">
+        <a type="button"><img src="./assets/impt.png" height="32px"></a>
+      </div>
+    </div>
+  </div>
+
+
 </div>

@@ -19,6 +19,9 @@ export class ImportSectionComponent {
   Screen3: boolean = false;
   Screen4: boolean = false;
   Screen5: boolean = false;
+  Screen6: boolean = false;
+  Screen7: boolean = false;
+  Screen8: boolean = false;
 
   uploadFile(event: any) {
     this.fileUpload = event.target.files[0].name;
@@ -37,7 +40,7 @@ export class ImportSectionComponent {
     this.Screen2 = false;
     this.Screen3 = true;
   }
-  importForth(){
+  importForth() {
     this.Screen3 = false;
     this.Screen4 = true;
   }
